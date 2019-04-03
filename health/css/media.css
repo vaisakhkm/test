@@ -1,0 +1,135 @@
+@media only screen 
+and (max-width : 1000px){
+
+	html, body{
+		-webkit-touch-callout: none;
+		-webkit-user-select: none; /* Webkit */
+		-moz-user-select: none;    /* Firefox */
+		-ms-user-select: none;     /* IE 10  */
+	}
+	
+	/* Header Config*/
+	#page-header{ text-align:center; height:auto; padding: 10px 0 0; }
+
+	.complogo{ position: relative; margin: 0 auto 10px; left: auto; top:auto; right: auto; }
+
+	.headcon{ position: relative; text-align: center; top: auto; } 
+	.headcon ul li{ float: none !important; text-align: left; margin: 5px 12px !important; width: auto !important; }
+	
+	nav{ height: auto; padding: 5px; position: relative; top: auto; }
+	nav ul li{ width: 48%; margin: 2px; }
+	nav ul li a{ width: 100%; line-height: 24px; padding: 5px; }
+	nav ul ul{ width: 100%; }
+	nav ul ul li{ width: 100%; display: block; }
+
+	nav li span{ display: block; }
+	nav li li span{ display: none; }
+
+	#banner{ margin: auto; padding: 25px 12px 12px; height: auto; background: #541515; }
+
+	.bannerdet{ float: none; width: 100%; margin: 12px auto 0; }
+	.slideshow{ float: none; margin: 0 auto 0; }
+
+	#mid{ margin: auto; padding: 15px 8px; }
+	.midbox{ float: none !important; margin: 8px 0; background: #2A98E0; width: 32%; border-radius: 15px; padding: 25px 25px 25px 35px; height: auto; }
+	.midbox:before{ content: "" !important; }
+	.midbox p{ margin: 29px 0 0; }
+	.midbox a{ top: 30px; }
+
+	#main-wrapper{ padding: 20px 0; }
+	.page-content{ float: none; width: 100%; padding: 0 15px; margin-top: auto; }
+	.maincontents ul.homelist{ padding-left: 20px; }
+	#sidebar{ text-align: center; width: 100%; float: none; clear: both; }
+	.sidetabs{ margin: 12px 0; }
+	.sidetabs h2{ background: #27A2F0; width: 100%; height: auto; margin: 0 auto 12px; padding: 12px 8px; }
+	.sidetabs h2:before{ top: 10px; }
+	.sidetabs ul li{ width: 320px; margin: 2px; display: inline-block; vertical-align: top; text-align: left; }
+	.sidetabs ul li a{ margin: auto !important; width: 100%; }
+	.sidetabs2{ max-width: 320px; width: 100%; display: block; margin: 5px auto; text-align: left; }
+	.sidebottombox{ display: none; }
+
+	#bottom{ height: auto; padding: 20px 8px; }
+	.bottombox{ margin: 12px 5px !important; float: none !important; }
+	.contactinfo{ height: auto; }
+
+	footer{ text-align: center; }
+	.socials{ position: static; }
+	.headcon .socials li {margin: 0px !important; } 
+}
+@media only screen 
+and (max-width : 785px) {
+
+	.midbox{ width: 45%; }
+
+}
+@media only screen 
+and (max-width : 650px) {
+
+	.nav-toggle-button{ background: #4C83A6; color:#fff; display:block; position:relative; margin-top: 15px; }
+	.nav-toggle-button:before{ content:"MENU"; font: bold 20px open sans; left: 15px; top: 10px; }
+	nav ul li{ display:block; width:100%; margin:2px auto !important; }
+	nav{ display:none; padding:5px; margin-top:-2px; }
+	nav ul{ margin:0; padding:0; }
+	nav ul li:hover > ul{ display: none; }
+	nav ul ul{ position:relative; }
+	nav ul ul ul{ position:relative; left:auto; top:100%; }
+
+	.fleft-img, .fright-img{ margin:0 auto 15px; display:block; float:none; }
+
+	.footernav ul li{ display: block; margin: 2px auto; }
+	.footernav ul li:after{ content: ""; }
+	.footernav ul li a{ border: 1px solid #fff; line-height: 24px; }
+
+	.copyright{ margin-top: 12px; }
+
+}
+
+@media only screen 
+and (max-width : 540px) {
+
+	.midbox{ width: 100%; max-width: 320px; }
+
+}
+
+@media only screen 
+and (max-width : 460px) {
+	
+	.col_2{ column-count:1; -webkit-column-count:1; -moz-column-count:1; }
+	.col_3{ column-count:1; -webkit-column-count:1; -moz-column-count:1; }
+
+	.rslides{ display: none; }
+	.slideshow{ width: 100%; height: auto; }
+	.bannerdet h2{ font-size: 30px; }
+	.slogan{ position: relative; left: auto; height: auto; bottom: auto; width: 100%; background: rgba(0,0,0,0.4); padding: 20px 10px; line-height: 24px; }
+
+}
+
+@media only screen 
+and (max-width : 330px) {
+	
+	#sidebar{ padding: 0 5px; }
+	.sidetabs ul li{ margin: 2px auto; width: 100%; }
+	.sidetabs ul li a{ background: #591717; border-radius: 12px; }
+	.sidetabs ul li a:hover, .sidetabs ul li.current_page_item a{ background: #e5e5e5; }
+
+	.bottombox{ margin: 12px 0 !important; }
+	.headcon ul li span{display:block!important;}
+	.headcon ul li {text-align: center;}
+	.headcon ul li.con2:before {left: -5px; top: 10px;}
+
+}
+@media only screen 
+and (max-width : 414px) {
+.headcon ul li.con1:before{left:-3px;}
+}
+
+@media only screen 
+and (max-width : 375px) {
+.headcon ul li.con1:before{left:-3px;}
+}
+
+@media only screen 
+and (max-width : 320px) {
+.headcon ul li.con1:before{left:-8px; top:11px;}
+.headcon ul li.con2:before { left: -3px; top: 15px; } 
+}
